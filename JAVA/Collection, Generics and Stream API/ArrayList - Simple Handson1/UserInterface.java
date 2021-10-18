@@ -3,9 +3,9 @@ import java.util.*;
 public class UserInterface {
 
 	public static void main(String[] args) {
+		//Scanner class used to take input from user
 		Scanner sc=new Scanner(System.in);
-		// Fill your code here
-		
+		// Enter element to add
 		System.out.println("Enter number of elements to add");
 		int n=sc.nextInt();
 		String[] str=new String[n+1];
